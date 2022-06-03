@@ -62,7 +62,7 @@ public:
 	DisplayInformation(CoffeeMachine* ptr_coffee_machine) : Device(ptr_coffee_machine) {}
 	void handler(const string& command = "", const string& message = "");
 	bool display_information();
-	string MAIN_STR;
+	string MAIN_STR;//строка, в которую записывается вся инфа
 };
 
 #endif // !device_h
